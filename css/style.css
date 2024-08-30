@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    margin: 0;
+}
+
+h1 {
+    color: #333; /* Texto gris oscuro */
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2b20ca; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #2216a4; /* Verde más oscuro al pasar el mouse */
+}
+
+#resultado {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-top: 30px;
+}
+
+#contrasena {
+    font-size: 1.2em;
+    word-break: break-all; /* Para que las contraseñas largas se dividan en varias líneas si es necesario */
+}
